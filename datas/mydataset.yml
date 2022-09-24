@@ -1,0 +1,7 @@
+train: /content/drive/MyDrive/yolov7/yolov7/YOLOv6/face_data/images/train  # train images (relative to 'path') 128 images
+val: /content/drive/MyDrive/yolov7/yolov7/YOLOv6/face_data/images/val # val images (relative to 'path') 128 images
+
+is_coco: False
+
+nc: 2  # number of classes
+names: [ 'Mask', 'Nomask']  # class names
